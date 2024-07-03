@@ -33,4 +33,4 @@ with open('data_modified.json', 'w') as file:
 
 print("Modified data saved to data_modified.json")
 
-print()
+print(json.dumps(data,indent=4))
