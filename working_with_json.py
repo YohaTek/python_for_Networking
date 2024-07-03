@@ -32,3 +32,5 @@ with open('data_modified.json', 'w') as file:
     json.dump(data, file, indent=4)
 
 print("Modified data saved to data_modified.json")
+
+print()
