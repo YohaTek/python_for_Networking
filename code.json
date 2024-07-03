@@ -1,0 +1,9 @@
+{ 
+    "name":"switch_01",
+    "version": "1.0.0",
+    "vendor" : "Cisco",
+    "interface" : [
+               {"Giga":["interface1", "interface2", "interface3"]},
+                {"Fast":["interface1","interface2","interface"]}
+              ]    
+  }
