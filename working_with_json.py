@@ -6,6 +6,13 @@ with open("code.json","r") as f:
 
 print("loaded json file",data)
 
+
+# Accessing specific elements in the JSON
+name = data['name']
+version = data['version']
+vendor = data['vendor']
+interfaces = data['interface']
+
 # Printing specific elements
 print(f"Device Name: {name}")
 print(f"Version: {version}")
