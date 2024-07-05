@@ -1,0 +1,13 @@
+---
+inventory:
+  devices:
+    - name : csrlkV1
+      version: 16.01
+      Vendor: cisco
+      uptime: 2 days
+      serial : XB96871
+      Snmp:
+        - name: public
+          permission: ro
+        - name: private
+          permission: rw
