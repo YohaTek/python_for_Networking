@@ -11,3 +11,4 @@ inventory:
           permission: ro
         - name: private
           permission: rw
+        - certification: https://coursera.org/share/424a50bd8aa44803cfcd7179800bf54a
