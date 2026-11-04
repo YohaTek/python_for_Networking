@@ -1,6 +1,6 @@
 import json
 
-with open("code.json","r") as f:
+with open("switch_device.json", "r") as f:
     data = json.load(f)
 
 
