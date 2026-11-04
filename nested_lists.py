@@ -26,4 +26,4 @@ def find_positions(nested_list, value, path=None):
 
 values_to_find = [4, 13, 20]
 positions = {value: find_positions(nested_list, value) for value in values_to_find}
-positions
+print(positions)
