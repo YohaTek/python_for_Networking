@@ -1,9 +1,10 @@
-devices= ["ASA", "NEXUS", "CATALYST", "NEXUS", "asa"]
+devices = ["ASA", "NEXUS", "CATALYST", "NEXUS", "asa"]
 
+# dir() shows the available functions for the object devices
+print(dir(devices))
 
-dir(devices) # this will show us the available functions for the object devices
-
-#count , is one of the functions, and to see how we can use count
-
+# count is one of those functions; help() documents how to use it
 help(devices.count)
+
+print(devices.count("NEXUS"))
 
